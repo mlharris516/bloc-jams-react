@@ -168,7 +168,7 @@ class Album extends Component {
 
                                 <td className="song-title">{song.title}
                                 </td>
-                                <td className="song-duration">{song.duration}</td>
+                                <td className="song-duration">{this.formatTime(song.duration)}</td>
                             </tr>
                         )}
                     </tbody>

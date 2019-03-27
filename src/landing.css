@@ -1,0 +1,47 @@
+
+
+
+.landing {
+    background-image: url("/assets/images/blurred_backgrounds/blue_red_blur.jpg"); /* The image used */
+    background-color: black; /* Used if the image is unavailable */
+    height: 900px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+  
+  .hero-title {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 300%;
+  }
+
+  .selling-points {
+      top:60%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+
+  }
+
+  .point-title {
+    text-align: center;
+    top: 20%;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 150%;
+  }
+
+  .point-description {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: darkgray;
+  }

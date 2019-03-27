@@ -1,0 +1,20 @@
+.album {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.player-bar {
+    width: 200px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+}
+
+#previous, #play-pause, #next {
+    font-size: 25pt;
+    color: blue;
+    
+    border: none;
+    padding: 20px;
+  }

@@ -1,0 +1,23 @@
+.library {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.library a {
+    text-decoration: none;
+}
+.albumTitle {
+    font-size:150%;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.albumArtist {
+    font-size: 100%;
+}
+
+.albumSongs {
+    font-size: 80%;
+    margin-bottom: 30px;
+}

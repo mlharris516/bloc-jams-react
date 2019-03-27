@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-decoration: none;
+  
 }
 
 .App-logo {
@@ -16,11 +17,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  color: black;
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +27,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header img {
+  size: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: black;
+  box-shadow: 0 0 50px 0 black;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+header * {
+  display: inline;
+
+}
+
+header li {
+  padding:20px;
+  color: black;
+}
+
+header li a {
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: rgb(185, 54, 76);
 }

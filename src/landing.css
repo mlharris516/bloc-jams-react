@@ -2,9 +2,9 @@
 
 
 .landing {
-    background-image: url("/assets/images/blurred_backgrounds/blue_red_blur.jpg"); /* The image used */
+    background-image: url("/assets/images/dj.jpg"); /* The image used */
     background-color: black; /* Used if the image is unavailable */
-    height: 900px; /* You must set a specified height */
+    height: 750px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -12,14 +12,15 @@
 
   
   .hero-title {
-    top: 20%;
-    left: 50%;
+    top: 60%;
+    left: 51%;
     transform: translate(-50%, -50%);
     position: absolute;
     text-transform: uppercase;
+    letter-spacing: 0.05em;
     color: white;
-    font-family: 'Space Mono', monospace;
-    font-size: 300%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 400%;
   }
 
   .selling-points {
@@ -36,12 +37,38 @@
     top: 20%;
     text-transform: uppercase;
     color: white;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Titillium Web' sans-serif;
     font-size: 150%;
   }
 
   .point-description {
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: darkgray;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    background-color: #4e003a;
+    top: 20%;
+    float: left;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:before {
+    height: 750px;
+    
+    content: "";
+    display: table;
+    clear: both;
   }

@@ -1,3 +1,4 @@
+
 .album {
     margin-top: 100px;
     margin-left: 20px;
@@ -17,4 +18,9 @@
     
     border: none;
     padding: 20px;
+  }
+
+  #album-cover-art {
+    margin-top: 75px;
+      width: 300px;
   }

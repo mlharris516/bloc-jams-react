@@ -6,20 +6,26 @@ const Landing = () => (
     <section className="landing">
         <h1 className="hero-title">Turn the music up!</h1>
 
-        <section className="selling-points">
-            <div className="point">
-                <h2 className="point-title">Choose your music</h2>
-                <p className="point-description">The world is full of music; why should you have to listen to music that someone else chose?</p>
+        <div class="row">
+            <div class="column">
+                <img src="/assets/images/landing_icons/headphones.png" alt="Headphones Icon"></img>
+                <h2>Choose Your Music</h2>
+                <p>The world is full of music...</p>
+                <p>Why listen to music that someone else chose?</p>
             </div>
-            <div className="point">
-                <h2 className="point-title">Unlimited, streaming, ad-free</h2>
-                <p className="point-description">No arbitrary limits. No distrations.</p>
+            <div class="column">
+                <img src="/assets/images/landing_icons/speaker.png" alt="Speaker Icon"></img>
+                <h2>Unlimited Streaming, Ad-Free</h2>
+                <p>No arbitrary limits.</p>
+                <p>No distrations.</p>
             </div>
-            <div className="point">
-                <h2 className="point-title">Mobile enabled</h2>
-                <p className="point-description">Listen to your music on the go. This streaming service is available on all mobile platforms.</p>
-            </div>     
-        </section>
+            <div class="column">
+                <img src="/assets/images/landing_icons/smartphone.png" alt="Smartphone Icon"></img>
+                <h2>Mobile Enabled</h2>
+                <p>Listen to your music on the go.</p>
+                <p>This streaming service is available on all mobile platforms.</p>
+            </div>
+        </div>
     </section>
 );
 

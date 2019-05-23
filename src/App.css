@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }
 
 @keyframes App-logo-spin {
@@ -29,21 +29,21 @@
 }
 
 header img {
-  size: 80px;
+  size: 30px;
   margin-left: 40px;
   margin-right: 40px;
 }
 
 header {
-  background-color: white;
+  background-color: hsla(0, 0%, 100%, 0.1);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: 75px;
   display: flex;
   align-items: center;
-  color: black;
+  color: white;
   box-shadow: 0 0 50px 0 black;
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
@@ -68,5 +68,5 @@ a:visited{
 }
 
 a:hover{
-  color: rgb(185, 54, 76);
+  color: rgb(202, 78, 161);
 }
